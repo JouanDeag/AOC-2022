@@ -23,8 +23,9 @@ const scoreLookup = (s: string) => {
   return score;
 };
 
+// Part 1
 for (const line of lines) {
-  let middle: number = Math.floor(line.length / 2);
+  let middle: number = line.length / 2;
   let firstHalf: string = line.slice(0, middle);
   let secondHalf: string = line.slice(middle, line.length);
 
@@ -35,7 +36,7 @@ for (const line of lines) {
   partOneSum += scoreLookup(result);
 }
 
-// Split lines into groups of 3
+// Part 2
 for (let i = 0; i < lines.length; i += 3) {
   let result = lines[i]
     .split('')
