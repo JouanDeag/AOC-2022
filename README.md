@@ -8,3 +8,4 @@ I aim to vary my choise of languages and in the process, learn a few new ones as
 
 1. Python 
 2. Typescript
+3. Typescript
